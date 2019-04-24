@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041DF09F2270010B000F6676 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DF09E2270010B000F6676 /* GradientView.swift */; };
 		041E7BA3226FF43F009E5AF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E7BA2226FF43F009E5AF3 /* AppDelegate.swift */; };
 		041E7BA8226FF43F009E5AF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041E7BA6226FF43F009E5AF3 /* Main.storyboard */; };
 		041E7BAB226FF43F009E5AF3 /* Smack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 041E7BA9226FF43F009E5AF3 /* Smack.xcdatamodeld */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041DF09E2270010B000F6676 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		041E7B9F226FF43F009E5AF3 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041E7BA2226FF43F009E5AF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		041E7BA7226FF43F009E5AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 		041E7BCB226FF9BD009E5AF3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				041DF09E2270010B000F6676 /* GradientView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 			files = (
 				041E7BCE226FF9DF009E5AF3 /* ChatVC.swift in Sources */,
 				041E7BA3226FF43F009E5AF3 /* AppDelegate.swift in Sources */,
+				041DF09F2270010B000F6676 /* GradientView.swift in Sources */,
 				041E7BAB226FF43F009E5AF3 /* Smack.xcdatamodeld in Sources */,
 				041E7BC8226FF7F5009E5AF3 /* SWRevealViewController.m in Sources */,
 				041E7BD0226FF9EE009E5AF3 /* ChannelVC.swift in Sources */,
