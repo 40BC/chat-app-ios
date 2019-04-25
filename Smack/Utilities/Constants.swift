@@ -11,6 +11,7 @@ import Foundation
 // makes type CompletionHandler type Success which is a bool
 typealias CompletionHandler = (_ Success: Bool) -> ()
 
+// test@register.com, 12345
 // segues
 let TO_LOGIN = "toLogin"
 let TO_CREATE_ACCOUNT = "toCreateAccount"
