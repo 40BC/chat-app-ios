@@ -25,3 +25,10 @@ let USER_EMAIL = "userEmail"
 // networking
 let API_URL = "https://bc40-chat.herokuapp.com/v1"
 let REGISTER_URL = "\(API_URL)/account/register"
+let LOGIN_URL = "\(API_URL)/account/login"
+
+// headers
+let HEADER = [
+    "Content-Type": "application/json; charset=utf-8"
+]
+

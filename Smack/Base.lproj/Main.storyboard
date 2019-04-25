@@ -310,7 +310,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P3Y-4l-Sgd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="b5Z-6M-2ef" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1200.8" y="-310.34482758620692"/>
+            <point key="canvasLocation" x="1089" y="-310"/>
         </scene>
         <!--Create AccountVC-->
         <scene sceneID="sVM-nI-CMw">
