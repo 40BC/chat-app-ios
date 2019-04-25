@@ -11,7 +11,7 @@ import UIKit
 @IBDesignable // render inside storyboard
 class GradientView: UIView {
     
-    @IBInspectable var topColor: UIColor = #colorLiteral(red: 0, green: 0.08891461045, blue: 0.9355897307, alpha: 0.8470588235) {
+    @IBInspectable var topColor: UIColor = #colorLiteral(red: 0.2395215631, green: 0.3320434093, blue: 0.7513638139, alpha: 1) {
         didSet {
             self.setNeedsLayout()
         }
