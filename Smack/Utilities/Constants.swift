@@ -26,6 +26,7 @@ let USER_EMAIL = "userEmail"
 let API_URL = "https://bc40-chat.herokuapp.com/v1"
 let REGISTER_URL = "\(API_URL)/account/register"
 let LOGIN_URL = "\(API_URL)/account/login"
+let ADD_USER_URL = "\(API_URL)/user/add"
 
 // headers
 let HEADER = [
