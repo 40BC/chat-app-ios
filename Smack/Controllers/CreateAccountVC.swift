@@ -59,7 +59,7 @@ class CreateAccountVC: UIViewController, UITextFieldDelegate {
                         print("LOGGED IN USER!: \(AuthService.instance.authToken)")
                         AuthService.instance.createUser(name: name, email: email, avatarName: self.avatarName, avatarColor: self.avatarColor, completion: { (success) in
                             if success {
-                                print("CREATED USER" ,UserDataService.instance.name)
+                                print("CREATED USER", UserDataService.instance.name)
                                 self.spinner.isHidden = true
                                 self.spinner.stopAnimating()
                                 self.performSegue(withIdentifier: UNWIND, sender: nil)
@@ -82,6 +82,7 @@ class CreateAccountVC: UIViewController, UITextFieldDelegate {
         let g = CGFloat(arc4random_uniform(255)) / 255
         let b = CGFloat(arc4random_uniform(255)) / 255
         bgColor = UIColor(red: r, green: g, blue: b, alpha: 1)
+        avatarColor = "['\(r), \(g), \(b), 1]"
         UIView.animate(withDuration: 0.2) {
             self.userImage.backgroundColor = self.bgColor
         }

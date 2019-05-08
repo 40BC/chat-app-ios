@@ -18,7 +18,7 @@ class AuthService {
     
     var isLoggedIn: Bool {
         get {
-            return defaults.bool(forKey: "LOGGED_IN_KET")
+            return defaults.bool(forKey: LOGGED_IN_KEY)
         }
         
         set {
@@ -79,6 +79,7 @@ class AuthService {
                 self.userEmail = json["user"].stringValue
                 self.authToken = json["token"].stringValue
                 
+                self.isLoggedIn = true
                 completion(true)
             } else {
                 completion(false)
