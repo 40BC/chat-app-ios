@@ -16,6 +16,7 @@ typealias CompletionHandler = (_ Success: Bool) -> ()
 let TO_LOGIN = "toLogin"
 let TO_CREATE_ACCOUNT = "toCreateAccount"
 let UNWIND = "unwindToChannel"
+let TO_AVATAR_PICKER = "toAvatarPicker"
 
 // userDefaults
 let TOKEN_KEY = "token"
@@ -26,6 +27,7 @@ let USER_EMAIL = "userEmail"
 let API_URL = "https://bc40-chat.herokuapp.com/v1"
 let REGISTER_URL = "\(API_URL)/account/register"
 let LOGIN_URL = "\(API_URL)/account/login"
+let ADD_USER_URL = "\(API_URL)/user/add"
 
 // headers
 let HEADER = [
