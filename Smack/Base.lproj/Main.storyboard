@@ -115,7 +115,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CWf-aE-9DY">
-                                <rect key="frame" x="109" y="734" width="42" height="33"/>
+                                <rect key="frame" x="107" y="734" width="46" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -287,16 +287,25 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginPressed:" destination="KXy-qU-7TZ" eventType="touchUpInside" id="ctO-15-BHU"/>
+                                </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="k1l-e5-thh">
+                                <rect key="frame" x="169" y="267.66666666666669" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="kfd-Pn-FEq" firstAttribute="top" secondItem="ra9-6D-bG2" secondAttribute="bottom" constant="40" id="1Gd-NM-yAT"/>
                             <constraint firstItem="ra9-6D-bG2" firstAttribute="centerX" secondItem="VD8-Uz-QKT" secondAttribute="centerX" id="6IR-uV-atm"/>
+                            <constraint firstItem="k1l-e5-thh" firstAttribute="centerY" secondItem="VD8-Uz-QKT" secondAttribute="centerY" constant="-120" id="Alx-hP-Uz1"/>
                             <constraint firstItem="ra9-6D-bG2" firstAttribute="top" secondItem="MjD-MI-dsB" secondAttribute="top" constant="60" id="BfZ-ap-grt"/>
                             <constraint firstItem="kfd-Pn-FEq" firstAttribute="centerX" secondItem="VD8-Uz-QKT" secondAttribute="centerX" id="BrJ-Cu-2co"/>
                             <constraint firstItem="Oy7-T8-ZAw" firstAttribute="centerX" secondItem="VD8-Uz-QKT" secondAttribute="centerX" id="Cy4-EG-NPg"/>
                             <constraint firstItem="7eJ-u2-Zcl" firstAttribute="top" secondItem="Oy7-T8-ZAw" secondAttribute="bottom" id="FrQ-Vd-nig"/>
+                            <constraint firstItem="k1l-e5-thh" firstAttribute="centerX" secondItem="VD8-Uz-QKT" secondAttribute="centerX" id="MXD-tt-CHN"/>
                             <constraint firstItem="Oy7-T8-ZAw" firstAttribute="top" secondItem="kfd-Pn-FEq" secondAttribute="bottom" constant="40" id="Rgh-cf-xYR"/>
                             <constraint firstItem="MjD-MI-dsB" firstAttribute="trailing" secondItem="4rT-sK-5ZP" secondAttribute="trailing" constant="16" id="gDU-v2-LV1"/>
                             <constraint firstItem="7eJ-u2-Zcl" firstAttribute="centerX" secondItem="VD8-Uz-QKT" secondAttribute="centerX" id="yFN-Cs-P12"/>
@@ -305,6 +314,9 @@
                         <viewLayoutGuide key="safeArea" id="MjD-MI-dsB"/>
                     </view>
                     <connections>
+                        <outlet property="passwordText" destination="Wc9-eI-HjJ" id="sM6-DI-uXf"/>
+                        <outlet property="spinner" destination="k1l-e5-thh" id="AWN-aG-mBc"/>
+                        <outlet property="usernameText" destination="xJv-p0-Fjj" id="e3Y-Ad-WhM"/>
                         <segue destination="xsb-c9-PfV" kind="show" identifier="toCreateAccount" id="lbr-V0-yo0"/>
                     </connections>
                 </viewController>
