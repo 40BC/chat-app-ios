@@ -90,7 +90,6 @@ class CreateAccountVC: UIViewController, UITextFieldDelegate {
     
     func setUpView() {
         spinner.isHidden = true
-        
         usernameText.attributedPlaceholder = NSAttributedString(string: "username", attributes: [NSAttributedString.Key.foregroundColor: SMACK_PURPLE_PLACEHOLDER_COLOR])
         emailText.attributedPlaceholder = NSAttributedString(string: "email", attributes: [NSAttributedString.Key.foregroundColor: SMACK_PURPLE_PLACEHOLDER_COLOR])
         passwordText.attributedPlaceholder = NSAttributedString(string: "password", attributes: [NSAttributedString.Key.foregroundColor: SMACK_PURPLE_PLACEHOLDER_COLOR])

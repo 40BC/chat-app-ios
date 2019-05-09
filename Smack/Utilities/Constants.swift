@@ -28,9 +28,15 @@ let API_URL = "https://bc40-chat.herokuapp.com/v1"
 let REGISTER_URL = "\(API_URL)/account/register"
 let LOGIN_URL = "\(API_URL)/account/login"
 let ADD_USER_URL = "\(API_URL)/user/add"
+let USER_BY_EMAIL_URL = "\(API_URL)/user/byEmail"
 
 // headers
 let HEADER = [
+    "Content-Type": "application/json; charset=utf-8"
+]
+
+let BEARER_HEADER = [
+    "Authorization": "Bearer \(AuthService.instance.authToken)",
     "Content-Type": "application/json; charset=utf-8"
 ]
 
