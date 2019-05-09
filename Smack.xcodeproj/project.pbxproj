@@ -26,6 +26,8 @@
 		04721581227E810900ED9EFB /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04721580227E810900ED9EFB /* AvatarPickerVC.swift */; };
 		04721583228267F200ED9EFB /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04721582228267F200ED9EFB /* AvatarCell.swift */; };
 		047215852282744B00ED9EFB /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047215842282744B00ED9EFB /* CircleImage.swift */; };
+		047215882283B3C100ED9EFB /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047215862283B3C100ED9EFB /* ProfileVC.swift */; };
+		047215892283B3C100ED9EFB /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047215872283B3C100ED9EFB /* ProfileVC.xib */; };
 		40859FCDE169ED19C2E95140 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D454E372BDAC4ABF93B8A96A /* Pods_Smack.framework */; };
 		92ACF93481E8D9AAACD8CE59 /* Pods_SmackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D047B0F19B4C841F7A458C /* Pods_SmackTests.framework */; };
 /* End PBXBuildFile section */
@@ -66,6 +68,8 @@
 		04721580227E810900ED9EFB /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		04721582228267F200ED9EFB /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		047215842282744B00ED9EFB /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		047215862283B3C100ED9EFB /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		047215872283B3C100ED9EFB /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		69A97DBB3B8BA776BC437F7D /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 		D0D047B0F19B4C841F7A458C /* Pods_SmackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D454E372BDAC4ABF93B8A96A /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +140,7 @@
 		041E7BA1226FF43F009E5AF3 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				0472158A2283B3DF00ED9EFB /* XIBs */,
 				04270598227144BE00971013 /* Services */,
 				041DF0A022700BEB000F6676 /* Utilities */,
 				041E7BCC226FF9C2009E5AF3 /* Models */,
@@ -179,6 +184,7 @@
 				041DF0A322700F32000F6676 /* LoginVC.swift */,
 				042705962271382100971013 /* CreateAccountVC.swift */,
 				04721580227E810900ED9EFB /* AvatarPickerVC.swift */,
+				047215862283B3C100ED9EFB /* ProfileVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -208,6 +214,14 @@
 				0472157E227E727B00ED9EFB /* UserDataService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		0472158A2283B3DF00ED9EFB /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				047215872283B3C100ED9EFB /* ProfileVC.xib */,
+			);
+			path = XIBs;
 			sourceTree = "<group>";
 		};
 		13A2E6715910FCD5B3E2E531 /* Frameworks */ = {
@@ -304,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047215892283B3C100ED9EFB /* ProfileVC.xib in Resources */,
 				041E7BB0226FF441009E5AF3 /* LaunchScreen.storyboard in Resources */,
 				041E7BAD226FF441009E5AF3 /* Assets.xcassets in Resources */,
 				041E7BA8226FF43F009E5AF3 /* Main.storyboard in Resources */,
@@ -391,6 +406,7 @@
 				041E7BA3226FF43F009E5AF3 /* AppDelegate.swift in Sources */,
 				04721583228267F200ED9EFB /* AvatarCell.swift in Sources */,
 				041DF0A422700F32000F6676 /* LoginVC.swift in Sources */,
+				047215882283B3C100ED9EFB /* ProfileVC.swift in Sources */,
 				041DF09F2270010B000F6676 /* GradientView.swift in Sources */,
 				041E7BAB226FF43F009E5AF3 /* Smack.xcdatamodeld in Sources */,
 				042705972271382100971013 /* CreateAccountVC.swift in Sources */,
