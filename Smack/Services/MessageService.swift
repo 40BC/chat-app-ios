@@ -27,7 +27,8 @@ class MessageService {
 
                         let channel = Channel(channelTitle: channelTitle, channelDescription: channelDescription, id: id)
                         self.channels.append(channel)
-                    } // One way of JSON parsing
+                    }
+                    print("CHANNELS: \(self.channels)")
                     completion(true)
                 }
                 
@@ -39,7 +40,6 @@ class MessageService {
 //                    debugPrint(error as Any)
 //                    completion(false)
 //                }
-                print("CHANNELS: \(self.channels)")
             } else {
                 debugPrint(response.result.error as Any)
                 completion(false)
