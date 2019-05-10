@@ -29,6 +29,7 @@ let REGISTER_URL = "\(API_URL)/account/register"
 let LOGIN_URL = "\(API_URL)/account/login"
 let ADD_USER_URL = "\(API_URL)/user/add"
 let USER_BY_EMAIL_URL = "\(API_URL)/user/byEmail"
+let GET_CHANNELS_URL = "\(API_URL)/channel"
 
 // headers
 let HEADER = [
@@ -45,4 +46,5 @@ let SMACK_PURPLE_PLACEHOLDER_COLOR = #colorLiteral(red: 0.2395215631, green: 0.3
 
 // notifications
 let NOTIFICATION_USER_DATA_DID_CHANGE = Notification.Name("notificationUserDataChanged")
-
+let NOTIFICATION_CHANNELS_LOADED = Notification.Name("notificationChannelsLoaded")
+let NOTIFICATION_CHANNEL_SELECTED = Notification.Name("notificationChannelSelected")
