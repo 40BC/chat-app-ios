@@ -102,7 +102,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcg-rK-8ug">
-                                <rect key="frame" x="281" y="70.666666666666671" width="22" height="22"/>
+                                <rect key="frame" x="281" y="107.66666666666667" width="22" height="22.000000000000014"/>
                                 <state key="normal" image="addChannelButton">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -169,7 +169,7 @@
                             <constraint firstItem="VyE-f7-2Gl" firstAttribute="trailing" secondItem="pcg-rK-8ug" secondAttribute="trailing" constant="72" id="TCQ-4f-8Ki"/>
                             <constraint firstItem="Xpq-P4-s1y" firstAttribute="top" secondItem="LtU-r7-9vp" secondAttribute="bottom" constant="20" id="W5x-7d-NKG"/>
                             <constraint firstItem="pcg-rK-8ug" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Bm-Qo-Wdf" secondAttribute="trailing" constant="8" symbolic="YES" id="Wap-uP-by0"/>
-                            <constraint firstItem="pcg-rK-8ug" firstAttribute="centerY" secondItem="6Bm-Qo-Wdf" secondAttribute="centerY" id="YbN-N8-CcS"/>
+                            <constraint firstItem="pcg-rK-8ug" firstAttribute="centerY" secondItem="6Bm-Qo-Wdf" secondAttribute="centerY" constant="37" id="YbN-N8-CcS"/>
                             <constraint firstItem="Xpq-P4-s1y" firstAttribute="leading" secondItem="VyE-f7-2Gl" secondAttribute="leading" constant="10" id="Zhl-7l-Clr"/>
                             <constraint firstItem="LtU-r7-9vp" firstAttribute="leading" secondItem="VyE-f7-2Gl" secondAttribute="leading" id="azW-Gx-X3J"/>
                             <constraint firstItem="PtU-hD-J0d" firstAttribute="leading" secondItem="VyE-f7-2Gl" secondAttribute="leading" constant="10" id="dQj-T3-zKP"/>
