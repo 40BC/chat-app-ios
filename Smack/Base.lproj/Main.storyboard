@@ -74,6 +74,7 @@
                         <viewLayoutGuide key="safeArea" id="Bh2-8j-V7Q"/>
                     </view>
                     <connections>
+                        <outlet property="channelLabel" destination="FYd-lN-Wag" id="SkZ-w4-15T"/>
                         <outlet property="menuBtn" destination="KgE-uQ-Sya" id="lLR-5q-fZj"/>
                     </connections>
                 </viewController>
@@ -127,7 +128,7 @@
                                     <action selector="loginButtonPressed:" destination="nn6-bp-76Y" eventType="touchUpInside" id="14k-FK-h37"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LtU-r7-9vp">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LtU-r7-9vp">
                                 <rect key="frame" x="0.0" y="149" width="375" height="544"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>

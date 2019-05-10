@@ -46,4 +46,5 @@ let SMACK_PURPLE_PLACEHOLDER_COLOR = #colorLiteral(red: 0.2395215631, green: 0.3
 
 // notifications
 let NOTIFICATION_USER_DATA_DID_CHANGE = Notification.Name("notificationUserDataChanged")
-
+let NOTIFICATION_CHANNELS_LOADED = Notification.Name("notificationChannelsLoaded")
+let NOTIFICATION_CHANNEL_SELECTED = Notification.Name("notificationChannelSelected")
