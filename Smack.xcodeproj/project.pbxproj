@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04143197228502D300C76B70 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04143196228502D300C76B70 /* MessageService.swift */; };
+		04143199228502FC00C76B70 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04143198228502FC00C76B70 /* Channel.swift */; };
 		041DF09F2270010B000F6676 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DF09E2270010B000F6676 /* GradientView.swift */; };
 		041DF0A222700BFD000F6676 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DF0A122700BFD000F6676 /* Constants.swift */; };
 		041DF0A422700F32000F6676 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DF0A322700F32000F6676 /* LoginVC.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04143196228502D300C76B70 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		04143198228502FC00C76B70 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		041DF09E2270010B000F6676 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		041DF0A122700BFD000F6676 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		041DF0A322700F32000F6676 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -203,6 +207,7 @@
 		041E7BCC226FF9C2009E5AF3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				04143198228502FC00C76B70 /* Channel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 			children = (
 				04270599227144D300971013 /* AuthService.swift */,
 				0472157E227E727B00ED9EFB /* UserDataService.swift */,
+				04143196228502D300C76B70 /* MessageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -408,6 +414,8 @@
 				041DF0A422700F32000F6676 /* LoginVC.swift in Sources */,
 				047215882283B3C100ED9EFB /* ProfileVC.swift in Sources */,
 				041DF09F2270010B000F6676 /* GradientView.swift in Sources */,
+				04143197228502D300C76B70 /* MessageService.swift in Sources */,
+				04143199228502FC00C76B70 /* Channel.swift in Sources */,
 				041E7BAB226FF43F009E5AF3 /* Smack.xcdatamodeld in Sources */,
 				042705972271382100971013 /* CreateAccountVC.swift in Sources */,
 				0472157F227E727B00ED9EFB /* UserDataService.swift in Sources */,
