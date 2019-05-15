@@ -30,6 +30,7 @@ let LOGIN_URL = "\(API_URL)/account/login"
 let ADD_USER_URL = "\(API_URL)/user/add"
 let USER_BY_EMAIL_URL = "\(API_URL)/user/byEmail"
 let GET_CHANNELS_URL = "\(API_URL)/channel"
+let GET_MESSAGES_URL = "\(API_URL)/message/byChannel"
 
 // headers
 let HEADER = [
