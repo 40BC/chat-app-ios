@@ -142,17 +142,25 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="348-Ii-9ht">
+                                <rect key="frame" x="8" y="733" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="S3s-DG-zFE" firstAttribute="leading" secondItem="Bh2-8j-V7Q" secondAttribute="leading" id="0MS-Oz-RUs"/>
                             <constraint firstItem="Bh2-8j-V7Q" firstAttribute="trailing" secondItem="BhE-T9-0Z7" secondAttribute="trailing" constant="16" id="3an-Up-qE2"/>
+                            <constraint firstItem="a0Y-VJ-Dz0" firstAttribute="top" secondItem="348-Ii-9ht" secondAttribute="bottom" constant="5" id="Cv4-y5-KYM"/>
                             <constraint firstItem="BhE-T9-0Z7" firstAttribute="centerY" secondItem="a0Y-VJ-Dz0" secondAttribute="centerY" id="DIY-aw-dNt"/>
                             <constraint firstItem="nwE-ID-1MH" firstAttribute="top" secondItem="Pwd-xM-ng4" secondAttribute="top" id="E0C-vz-dgc"/>
                             <constraint firstItem="Bh2-8j-V7Q" firstAttribute="trailing" secondItem="a0Y-VJ-Dz0" secondAttribute="trailing" id="FXx-u8-hFk"/>
                             <constraint firstItem="nwE-ID-1MH" firstAttribute="leading" secondItem="Bh2-8j-V7Q" secondAttribute="leading" id="SY0-aH-a9u"/>
                             <constraint firstItem="a0Y-VJ-Dz0" firstAttribute="top" secondItem="S3s-DG-zFE" secondAttribute="bottom" constant="30" id="Yzu-Wr-G9y"/>
                             <constraint firstItem="Bh2-8j-V7Q" firstAttribute="trailing" secondItem="S3s-DG-zFE" secondAttribute="trailing" id="c8U-OU-9KM"/>
+                            <constraint firstItem="348-Ii-9ht" firstAttribute="leading" secondItem="Bh2-8j-V7Q" secondAttribute="leading" constant="8" id="gKR-28-7tu"/>
                             <constraint firstItem="a0Y-VJ-Dz0" firstAttribute="leading" secondItem="Bh2-8j-V7Q" secondAttribute="leading" id="hnw-JX-bQe"/>
                             <constraint firstItem="nwE-ID-1MH" firstAttribute="trailing" secondItem="Bh2-8j-V7Q" secondAttribute="trailing" id="jH0-B9-yOT"/>
                             <constraint firstItem="S3s-DG-zFE" firstAttribute="top" secondItem="nwE-ID-1MH" secondAttribute="bottom" id="ne0-Ne-Wu0"/>
@@ -166,11 +174,12 @@
                         <outlet property="messageTextBox" destination="a0Y-VJ-Dz0" id="8Vh-5z-RyA"/>
                         <outlet property="sendButton" destination="BhE-T9-0Z7" id="Zdz-ZE-0Rl"/>
                         <outlet property="tableView" destination="S3s-DG-zFE" id="2Bg-eY-dey"/>
+                        <outlet property="userTypingLabel" destination="348-Ii-9ht" id="rRq-tS-xSj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aoc-zd-5pj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-121" y="440"/>
+            <point key="canvasLocation" x="-122.40000000000001" y="439.65517241379314"/>
         </scene>
         <!--ChannelVC-->
         <scene sceneID="mQA-Sh-b3E">
