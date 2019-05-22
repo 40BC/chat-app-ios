@@ -14,6 +14,7 @@ class ProfileVC: UIViewController {
     @IBOutlet weak var userName: UILabel!
     @IBOutlet weak var userEmail: UILabel!
     @IBOutlet weak var bgView: UIView!
+    @IBOutlet weak var mainView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,11 +28,22 @@ class ProfileVC: UIViewController {
         userEmail.text = UserDataService.instance.email
         
         let closeTouch = UITapGestureRecognizer(target: self, action: #selector(ProfileVC.closeTap(_:)))
+        let endEditingTouch = UITapGestureRecognizer(target: self, action: #selector(ProfileVC.endEditingTap(_:)))
         bgView.addGestureRecognizer(closeTouch)
+        mainView.addGestureRecognizer(endEditingTouch)
     }
     
     @objc func closeTap(_ recognizer: UITapGestureRecognizer) {
         dismiss(animated: true, completion: nil)
+    }
+    
+    @objc func endEditingTap(_ recognizer: UITapGestureRecognizer) {
+        view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return true
     }
     
     @IBAction func closeModalPressed(_ sender: Any) {
